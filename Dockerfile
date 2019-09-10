@@ -2,9 +2,7 @@ FROM alpine:3.10.2
 
 ENV PORT=1234
 
-RUN apk --no-cache add \
-      docker \
-      socat
+RUN apk --no-cache add socat
 
 VOLUME /var/run/docker.sock
 EXPOSE ${PORT}
