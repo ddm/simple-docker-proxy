@@ -1,4 +1,4 @@
-FROM arm32v6/alpine:3.6
+FROM arm32v6/alpine:3.10.2
 
 ENV PORT=1234
 
@@ -10,3 +10,4 @@ VOLUME /var/run/docker.sock
 EXPOSE ${PORT}
 
 CMD socat TCP-LISTEN:${PORT},reuseaddr,fork UNIX-CLIENT:/var/run/docker.sock
+
