@@ -1,4 +1,4 @@
-FROM alpine:3.10.2
+FROM alpine:3.11.6
 
 ENV PORT=1234
 
