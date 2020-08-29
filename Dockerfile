@@ -1,6 +1,6 @@
 FROM alpine:3.11.6
 
-ENV PORT=1234
+ENV PORT=2375
 
 RUN apk --no-cache add socat
 
