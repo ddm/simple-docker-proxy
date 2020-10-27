@@ -1,4 +1,4 @@
-FROM arm32v6/alpine:3.12.0
+FROM arm32v6/alpine:3.12.1
 
 ENV PORT=2375
 
